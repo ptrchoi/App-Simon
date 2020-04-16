@@ -13,7 +13,7 @@
 
 # misc
 /.cache
-/firebase/*.cache
+/.firebase/*.cache
 /.vscode
 .DS_Store
 .env.local
