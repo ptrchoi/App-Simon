@@ -1,98 +1,100 @@
 @import url(https://fonts.googleapis.com/css?family=Orbitron);
 
-button:focus { outline: 0; }
-
-body {
-    background-color: white;
-    color: red;
-    font-family: 'Orbitron', sans-serif;
+button:focus {
+	outline: 0;
 }
 
-#mainDiv{
+body {
+	background-color: white;
+	color: red;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#mainDiv {
 }
 
 .bgImg {
-    background: url(images/body.png) no-repeat center;
-    position: contain;
-    height: 510px;
-    width: 100%;
+	background: url(images/body.png) no-repeat center;
+	position: contain;
+	height: 510px;
+	width: 100%;
 }
 
 .headerButton {
-    position: relative;
-    height: 36px;
-    width: 82px;
-    border: none;
+	position: relative;
+	height: 36px;
+	width: 82px;
+	border: none;
 }
 
 #start {
-    background: url(images/start.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    top: 7.5em;
-    left: -0.3em;
+	background: url(images/start.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: 103px;
+	left: -3px;
 }
 
 #strict {
-    background: url(images/strict.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    top: 6.4em;
-    left: 0.3em;
+	background: url(images/strict.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: 91px;
+	left: 6px;
 }
 
 .gameButton {
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-    height: 158px;
-    width: 158px;
-    border: none;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: relative;
+	height: 158px;
+	width: 158px;
+	border: none;
 }
 
 #green {
-    background: url(images/greenB.png);
-    top: 8.5em;
-    background-repeat: no-repeat;
-    background-size: contain;
+	background: url(images/greenB.png);
+	top: 120px;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 #red {
-    background: url(images/redB.png);
-    top: 8.5em;
-    background-repeat: no-repeat;
-    background-size: contain;
+	background: url(images/redB.png);
+	top: 120px;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 #yellow {
-    background: url(images/yellowB.png);
-    top: 8.5em;
-    background-repeat: no-repeat;
-    background-size: contain;
+	background: url(images/yellowB.png);
+	top: 120px;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 #blue {
-    background: url(images/blueB.png);
-    top: 8.5em;
-    background-repeat: no-repeat;
-    background-size: contain;
+	background: url(images/blueB.png);
+	top: 120px;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 #display {
-    top: 13.1em;
-    left: 2.95em;
-    background-repeat: no-repeat;
-    background-size: contain;
+	top: 184px;
+	left: 40px;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 .displayContainer {
-    position: relative;
-    width: 100%;
-    border: none;
+	position: relative;
+	width: 100%;
+	border: none;
 }
 
 #score {
-    position: absolute;
-    top: 0.57em;
-    left: 0.18em;
-    width: 100%;
-    font-size: 34px;
-    text-shadow: 1px 1px 3px black;
+	position: absolute;
+	top: 16px;
+	left: 5px;
+	width: 100%;
+	font-size: 34px;
+	text-shadow: 1px 1px 3px black;
 }
